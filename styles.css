@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #edf3f8;
+    color: #243447;
+}
+
+.container {
+    max-width: 700px;
+    margin: 70px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.subtitle {
+    color: #68788a;
+}
+
+.weather-card {
+    margin-top: 30px;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px #00000012;
+}
+
+#temperature {
+    margin: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #3182ce;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #3182ce;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2463a5;
+}

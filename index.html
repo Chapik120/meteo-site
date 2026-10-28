@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skyscaper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Метео-клиент</h1>
+        <p class="subtitle">Узнай погоду на сегодня</p>
+
+        <section class="weather-card">
+            <h2>Ярославль</h2>
+            <div id="temperature">+12 °C</div>
+            <p id="description">Переменная облачность</p>
+            <button onclick="renderWidget()">Обновить прогноз</button>
+        </section>
+    </main>
+
+    <script src="forecast.js"></script>
+</body>
+</html>
